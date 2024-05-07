@@ -14,7 +14,7 @@ $(document).ready(function() {
       return;
     }
     let name = $('#inputText').val();
-    $('.jsResult').text(`Đụ mẹ mày ${name}`);
+    $('.jsResult').text(`Con mẹ mày ${name}`);
     $('.result').fadeIn();
   });
 });
